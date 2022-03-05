@@ -2,5 +2,6 @@
 #include "fun.h"
 
 int64_t power(int64_t x, uint16_t n) {
-    return Math.Pow(x, n);
+    int64_t res = pow(x, n);
+    return res;
 }
